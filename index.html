@@ -47,9 +47,9 @@
         }
 
         main {
-            max-width: 600px;
+            max-width: 740px;
             margin: 0 auto;
-            padding: 80px 24px 120px;
+            padding: 80px 32px 120px;
         }
 
         .header {
@@ -221,7 +221,7 @@
             font-style: italic;
         }
 
-        .blog-placeholder {
+        .stuff-placeholder {
             font-size: 14px;
             color: #aaa;
             font-style: italic;
@@ -279,7 +279,7 @@
             border-top: 1px solid #f0dede;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 740px) {
             main {
                 padding: 48px 20px 80px;
             }
@@ -298,8 +298,8 @@
 <body>
     <main>
         <div class="header">
-            <div class="profile-pic-wrapper" data-tooltip="the only good photo of mine that you'll see everywhere xD">
-                <img src="profile.png" alt="Soham" class="profile-pic" />
+            <div class="profile-pic-wrapper" data-tooltip="probably the only good photo of mine that you'll see everywhere xD">
+                <img src="assets/profile.png" alt="Soham" class="profile-pic" />
             </div>
             <div class="header-text">
                 <h1>Soham Kalburgi</h1>
@@ -309,7 +309,7 @@
 
         <section>
             <p class="bio">
-                I am an undergraduate student interested in machine learning research. This website is still a WIP.
+                I am an undergraduate student interested in machine learning research. This website is a WIP.
             </p>
         </section>
 
@@ -347,10 +347,10 @@
         </section>
 
         <section>
-            <div class="section-label">Blog</div>
+            <div class="section-label">stuff</div>
             <div class="post-list">
                 <a href="/posts/placeholder" class="post-item">
-                    <span class="post-item-title">Placeholder <span class="draft-label">draft</span></span>
+                    <span class="post-item-title">Placeholder<span class="draft-label">draft</span></span>
                     <span class="post-item-date">Mar 2026</span>
                 </a>
             </div>
@@ -359,7 +359,7 @@
         <footer>Soham Kalburgi, 2026</footer>
     </main>
 
-    <div id="cursor-tooltip">the only good photo of mine that you&#39;ll see everywhere xD</div>
+    <div id="cursor-tooltip">probably the only good photo of mine that you&#39;ll see everywhere xD</div>
 
     <script>
         const tip = document.getElementById('cursor-tooltip');
